@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RedBus Booking System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🚌 Welcome to RedBus Booking System</h1>
+
+    <div class="menu" id="menu">
+      <button onclick="showSeats()">Show Available Seats</button>
+      <button onclick="promptBooking()">Book Seats</button>
+      <button onclick="exitApp()">Exit</button> <!-- Exit Button -->
+    </div>
+
+    <div class="seats-display" id="seatsDisplay"></div>
+
+    <div class="message" id="message"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
